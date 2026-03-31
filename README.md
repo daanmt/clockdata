@@ -56,6 +56,7 @@ Aqui estão os principais documentos recomendados para compreender o escopo e as
 | Documento | Descrição |
 |-----------|-----------|
 | **[Visão Geral do Projeto](core/project_overview.md)** | Contexto do negócio, horizonte de análise, objetivos principais e stakeholders. |
+| **[Fundamentos Estratégicos](core/strategic_metrics_foundations.md)** | Epistemologia de Engenharia, Qualidade (Shift-Left, Lean) e métricas base. |
 | **[Resumo Executivo](core/analysis_executive_summary.md)** | Diagnóstico resumido contemplando os principais KPIs de horas e esforço. |
 | **[Metodologia & Framework](core/methodology_framework.md)** | Diretrizes de como cruzar variáveis, agrupar tags e responder as perguntas. |
 | **[Time & Papéis](core/team_roles.md)** | Premissas de aderência e detalhamento por papéis (PM, PD, Dev, QA). |

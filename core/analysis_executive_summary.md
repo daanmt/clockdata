@@ -4,65 +4,65 @@
 
 ## Diagnóstico Principal
 
-> **O problema principal NÃO está em produtividade, mas sim na ausência de registro contínuo (lacunas diárias) e na percepção sistêmica. As métricas indicam que o time atua forte em Delivery, porém consome tempo considerável com Qualidade (Bugs/Correções).**
+> **O problema principal NÃO está em produtividade, mas sim na ausência de registro contínuo e na percepção sistêmica. Baseado na arquitetura *Dual-Track Agile*, as métricas indicam que a máquina principal do time (*Delivery*) opera forte, contudo, há um consumo excessivo em fase de *Qualidade* (Correções pós-entrega).**
 
-| Natureza | Peso |
-|----------|------|
-| 📊 Processo (modelo não captura atividades como gestão/1:1s) | **70%** |
-| 🧠 Interpretação (gap diário visto como ociosidade) | **20%** |
-| ⚙️ Operacional (cargas de Overhead) | **10%** |
+| Natureza do Problema | Peso | Ação Esperada (Filosofia Lean) |
+|----------|------|------|
+| 📊 Processo (Gaps em mapeamento de gestão) | **70%** | Mapear cadências ocultas de PMs e Liderança |
+| 🧠 Interpretação (Gap diário rotulado como ociosidade) | **20%** | Evoluir de "banco de horas" para "ferramenta de inferência" |
+| ⚙️ Operacional (Cargas de Overhead/Reuniões) | **10%** | Redução rigorosa de desperdícios e alinhamentos soltos |
 
 ---
 
 ## Indicadores-Chave
 
-### Distribuição de Esforço
-| Categoria | % | Avaliação |
+### 1. Eficiência Produtiva (Dual-Track Agile)
+| Categoria Semântica | % | Diagnóstico |
 |-----------|---|-----------|
-| Delivery | 51.8% | ✅ Saudável (Motor principal operando) |
-| Qualidade | 20.8% | 🟡 Carga relevante (Correções e Bugs frequentes) |
-| Overhead | 15.8% | 🟡 Reuniões e alinhamentos consumindo fatias altas |
-| Discovery | 10.6% | ✅ Adequado à maturidade atual das tarefas |
+| Delivery | 51.8% | ✅ Saudável (Motor de construção principal operando em alto volume) |
+| Qualidade | 20.8% | 🟡 Ponto focal crítico (Sinal de alerta para a tese Shift-Left) |
+| Overhead | 15.8% | 🟡 Reuniões e sincronias cobrando altas faturas de tempo da engenharia |
+| Discovery | 10.6% | ✅ Adequado à maturidade isolada da semana amostrada |
 
-### Discovery vs Delivery
-- **Razão atual**: **0.20** (faixa ideal: 0.15–0.25)
-- O investimento atual em Discovery encontra-se em patamar equilibrado, sugerindo que o time tem clareza das demandas (maduro) nesta janela específica.
+### 2. Razão Discovery vs Delivery (Indicador Estratégico)
+- **Razão atual**: **0.20** (Dentro da faixa global de referência: 0.15–0.25)
+- **O que os dados nos dizem:** Na média semanal, o investimento prévio em experimentação e escopo acompanhou de forma saudável o tempo de código. A meta é consolidar este indicador num horizonte semestral para provar a correlação da "Curva em U": *épicos com melhor D/D Ratio colapsam a geração de bugs na ponta direita do ciclo.*
 
-### Qualidade do Apontamento
-- Em média, a volumetria por pessoa atingiu **21.20h registradas** no período analisado.
-- Os gaps são altos: média de **3.38 dias úteis sem registro por pessoa**.
-- Especial atenção a papéis de **PMs e QAs** (com membros alcançando até 5 ou 6 dias zerados no apontamento).
+### 3. Fricção de Apontamento
+- A volumetria orgânica atingiu **21.20h médias mensuradas** por pessoa no período.
+- Contudo, a fricção é violenta: temos média de **3.38 dias úteis de invisibilidade sistêmica** (sem nenhum log no dia) por colaborador.
+- Especial atenção e urgência investigativa nos quadrantes de **PMs e QAs** (com membros alcançando limites extremos de 5 ou 6 dias opacos no log).
 
 ---
 
 ## 4 Problemas Identificados
 
-| # | Problema | Tipo | Impacto |
+| # | Barreira Identificada | Natureza | Custo Estratégico Oculto |
 |---|----------|------|---------|
-| 1 | Lacunas constantes de registro (3.38 dias zerados/pessoa) | Prática | Dificuldade em montar cenários financeiros de longo prazo |
-| 2 | Modelo de apontamento de Gestão/1:1s incompleto | Processo | PMs/PDs não têm onde apontar rotinas recorrentes |
-| 3 | Alta dedicação em Qualidade (20.8%) | Operação | Pode indicar refações que roubam escopo de inovações |
-| 4 | Visão estática semanal solta | Método | Funcionalidades duram meses; a amostra de 7 dias não traça tendência, só a "foto" |
+| 1 | Lacunas constantes de registro | Prática | Prejudica a formação de baseline de cálculos da Lei do Bem |
+| 2 | Modelo de trabalho 1:1s é invisível | Processo | Falsa acusação de baixa produtividade aos quadros de Produto |
+| 3 | Alta dedicação pós-código (20.8%) | Qualidade | Quebra a teoria do Shift-Left (Bugs custam mais caros à direita) |
+| 4 | Visão estática semanal solta | Metodologia | Funcionalidades longas não revelam ROIs baseadas apenas em 7 dias |
 
 ## 4 Oportunidades de Negócio
 
-| # | Oportunidade | Valor |
+| # | Alavanca de Negócio | Valor Financeiro Tangível |
 |---|-------------|-------|
-| 1 | Poder de negociação com Comercial | Uso de Horas vs Custo para justificar esforço de funcionalidades |
-| 2 | Lei do Bem | Embasamento fiscal com categorização auditável de P&D |
-| 3 | Previsibilidade de Delivery | Conforto de estimativas com o baseline atual (51.8%) |
-| 4 | Identificação de desperdícios | Metrificação tangível para combater Overheads em Squads críticas |
+| 1 | Poder de barganha Comercial | Justificar matematicamente viabilidade (Custo vs Retorno) de pedidos B2B |
+| 2 | Lei do Bem (Subsídio Fiscal) | Apresentação das tags de "Discovery" para deduções de imposto em inovação |
+| 3 | Previsibilidade Operacional | Transformar as taxas de refação num seguro probabilístico de datas de lançamento |
+| 4 | Governança Lean em Overheads | Devolver capacidade criativa removendo horas desperdiçadas em excesso de cadências |
 
 ---
 
 ## O que está BEM
 
-- ✅ Motor focado: **51.8%** de todas as horas foram puramente voltadas à Delivery (execução sólida).
-- ✅ A proporção teórica entre investigação prévia e desenvolvimento está dentro da margem ideal (razão **0.20**).
-- ✅ A taxonomia heurística demonstrou viabilidade em mapear o funil geral do time a partir dos dados não estruturados do Jira.
+- ✅ **Engine de Valor:** O time não é de fachada; a maior parte de sua potência energética efetiva de fato (**51.8%**) escreve artefatos de Entrega Final.
+- ✅ A taxonomia heurística demonstrou viabilidade em mapear empiricamente os preceitos do ciclo PDCA direto dos dados brutos do Jira.
+- ✅ O índice D/D em **0.20** protege a equipe da "paralisia por análise" (muito discovery) e da "fabrica de bugs crônica" (nenhum discovery).
 
 ## O que precisa MELHORAR
 
-- ⚠️ **Constância no Apontamento:** A média brutal de 3.38 dias vazios por colaborador (sobretudo PMs e QAs) distorce o planejamento.
-- ⚠️ **Foco na Causa-raiz de Q/A:** Fatias com mais de 20% focadas apenas em Qualidade merecem investigação nas próximas semanas.
-- ⚠️ Necessidade crítica de consolidação das faturas/horas em nível de "Squad / Produto" e expansão do período para uma visão trimestral.
+- ⚠️ **Constância e Adesão Orgânica:** A média brutal de 3.38 dias ocos rasga a confiabilidade matemática das projeções. Esse gargalo de "Accountability" precisa de um choque de gestão brando.
+- ⚠️ **Raio-X do Shift-Left em Qualidade:** Fatias com mais de 20% devoradas pós-handoff alertam que código pode estar sendo empurrado sem testes unitários de retaguarda.
+- ⚠️ Necessidade crítica de subida ao nível de "Gestão de Épico" num eixo analítico trimestral.

@@ -16,6 +16,7 @@
 - Tratar schemas como variaveis (PT/EN) e manter fallback + warning.
 - Gerar saidas em markdown orientadas por perguntas-chave e rastreabilidade.
 - Registrar lacunas de dados explicitamente no relatorio final.
+- Sempre se basear nas epistemologias de qualidade definidas em `core/strategic_metrics_foundations.md`.
 
 ## Instructions
 Before generating ANY spec, prompt pack, or audit:
