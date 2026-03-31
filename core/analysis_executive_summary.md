@@ -25,8 +25,12 @@
 | Discovery | 10.6% | ✅ Adequado à maturidade isolada da semana amostrada |
 
 ### 2. Razão Discovery vs Delivery (Indicador Estratégico)
+- **Product Discovery**: busca identificar o produto certo a ser construído, priorizando a compreensão das necessidades do usuário e a validação de hipóteses.
+- **Product Delivery**: se preocupa em entregar o produto certo de forma eficiente, com foco em execução e cumprimento de prazos e metas de desenvolvimento.
 - **Razão atual**: **0.20** (Dentro da faixa global de referência: 0.15–0.25)
 - **O que os dados nos dizem:** Na média semanal, o investimento prévio em experimentação e escopo acompanhou de forma saudável o tempo de código. A meta é consolidar este indicador num horizonte semestral para provar a correlação da "Curva em U": *épicos com melhor D/D Ratio colapsam a geração de bugs na ponta direita do ciclo.*
+
+![Logo](.\docs\grafico_curva_u_dd_ratio.png)
 
 ### 3. Fricção de Apontamento
 - A volumetria orgânica atingiu **21.20h médias mensuradas** por pessoa no período.
