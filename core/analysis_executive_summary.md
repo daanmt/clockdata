@@ -30,7 +30,7 @@
 - **Razão atual**: **0.20** (Dentro da faixa global de referência: 0.15–0.25)
 - **O que os dados nos dizem:** Na média semanal, o investimento prévio em experimentação e escopo acompanhou de forma saudável o tempo de código. A meta é consolidar este indicador num horizonte semestral para provar a correlação da "Curva em U": *épicos com melhor D/D Ratio colapsam a geração de bugs na ponta direita do ciclo.*
 
-![Curva U](.\docs\grafico_curva_u_dd_ratio.png)
+![Curva U](./docs/grafico_curva_u_dd_ratio.png)
 
 ### 3. Fricção de Apontamento
 - A volumetria orgânica atingiu **21.20h médias mensuradas** por pessoa no período.
