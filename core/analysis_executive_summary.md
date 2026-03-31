@@ -1,38 +1,37 @@
 # Resumo Executivo — Análise Estratégica POPS
 
-> Período analisado: 23-30/03/2026 (8 dias úteis)
+> **Período analisado**: 23/03/2026 – 30/03/2026 (Semana Padrão)
 
 ## Diagnóstico Principal
 
-> **O problema NÃO está na operação ou produtividade do time. O problema está no MODELO DE APONTAMENTO e na forma como interpretamos os dados.**
+> **O problema principal NÃO está em produtividade, mas sim na ausência de registro contínuo (lacunas diárias) e na percepção sistêmica. As métricas indicam que o time atua forte em Delivery, porém consome tempo considerável com Qualidade (Bugs/Correções).**
 
 | Natureza | Peso |
 |----------|------|
-| 📊 Processo (modelo não captura tudo) | **70%** |
-| 🧠 Interpretação (gap visto como erro) | **20%** |
-| ⚙️ Operacional (ajustes pontuais) | **10%** |
+| 📊 Processo (modelo não captura atividades como gestão/1:1s) | **70%** |
+| 🧠 Interpretação (gap diário visto como ociosidade) | **20%** |
+| ⚙️ Operacional (cargas de Overhead) | **10%** |
 
 ---
 
 ## Indicadores-Chave
 
 ### Distribuição de Esforço
-| Atividade | % | Avaliação |
+| Categoria | % | Avaliação |
 |-----------|---|-----------|
-| Codificação | 51.8% | ✅ Excelente |
-| QA | 13.2% | ✅ Saudável |
-| Reuniões | 9.1% | ✅ Overhead controlado |
-| Bugs | 2.4% | ✅ Qualidade alta |
+| Delivery | 51.8% | ✅ Saudável (Motor principal operando) |
+| Qualidade | 20.8% | 🟡 Carga relevante (Correções e Bugs frequentes) |
+| Overhead | 15.8% | 🟡 Reuniões e alinhamentos consumindo fatias altas |
+| Discovery | 10.6% | ✅ Adequado à maturidade atual das tarefas |
 
 ### Discovery vs Delivery
-- **Razão atual**: 0.25 (faixa ideal: 0.15–0.25)
-- Discovery eficiente → **82% de redução em bugs** (histórico)
-- Ciclo atual com menos discovery = time mais maduro
+- **Razão atual**: **0.20** (faixa ideal: 0.15–0.25)
+- O investimento atual em Discovery encontra-se em patamar equilibrado, sugerindo que o time tem clareza das demandas (maduro) nesta janela específica.
 
 ### Qualidade do Apontamento
-- **73.1%** dos colaboradores com padrão **natural** de variação
-- Apenas **1 pessoa (3.8%)** com padrão artificial
-- Maioria faz registro real, não estimativa
+- Em média, a volumetria por pessoa atingiu **21.20h registradas** no período analisado.
+- Os gaps são altos: média de **3.38 dias úteis sem registro por pessoa**.
+- Especial atenção a papéis de **PMs e QAs** (com membros alcançando até 5 ou 6 dias zerados no apontamento).
 
 ---
 
@@ -40,33 +39,30 @@
 
 | # | Problema | Tipo | Impacto |
 |---|----------|------|---------|
-| 1 | Modelo de apontamento incompleto | Processo | Não captura reuniões/gestão → PMs/PDs parecem improdutivos |
-| 2 | Granularidade excessiva | Dados | Visão por usuário dificulta consolidação por squad |
-| 3 | Falta categorização Discovery/Delivery | Processo | Impossibilita análise de eficiência real |
-| 4 | Análise pontual (semanal) | Método | Épicos vivem meses; análise semanal é inadequada |
+| 1 | Lacunas constantes de registro (3.38 dias zerados/pessoa) | Prática | Dificuldade em montar cenários financeiros de longo prazo |
+| 2 | Modelo de apontamento de Gestão/1:1s incompleto | Processo | PMs/PDs não têm onde apontar rotinas recorrentes |
+| 3 | Alta dedicação em Qualidade (20.8%) | Operação | Pode indicar refações que roubam escopo de inovações |
+| 4 | Visão estática semanal solta | Método | Funcionalidades duram meses; a amostra de 7 dias não traça tendência, só a "foto" |
 
 ## 4 Oportunidades de Negócio
 
 | # | Oportunidade | Valor |
 |---|-------------|-------|
-| 1 | Poder de negociação com Comercial | Custo por funcionalidade como argumento |
-| 2 | Lei do Bem | Benefícios fiscais em P&D |
-| 3 | Previsibilidade | Estimativas baseadas em histórico |
-| 4 | Identificação de desperdícios | Otimização de processos |
+| 1 | Poder de negociação com Comercial | Uso de Horas vs Custo para justificar esforço de funcionalidades |
+| 2 | Lei do Bem | Embasamento fiscal com categorização auditável de P&D |
+| 3 | Previsibilidade de Delivery | Conforto de estimativas com o baseline atual (51.8%) |
+| 4 | Identificação de desperdícios | Metrificação tangível para combater Overheads em Squads críticas |
 
 ---
 
 ## O que está BEM
 
-- ✅ Time focado em delivery (73% do esforço)
-- ✅ Qualidade alta (apenas 2.4% em bugs)
-- ✅ Discovery eficiente (razão 0.25 ideal)
-- ✅ Maioria com padrão de apontamento natural
-- ✅ Overhead de reuniões controlado (9.1%)
+- ✅ Motor focado: **51.8%** de todas as horas foram puramente voltadas à Delivery (execução sólida).
+- ✅ A proporção teórica entre investigação prévia e desenvolvimento está dentro da margem ideal (razão **0.20**).
+- ✅ A taxonomia heurística demonstrou viabilidade em mapear o funil geral do time a partir dos dados não estruturados do Jira.
 
 ## O que precisa MELHORAR
 
-- ⚠️ Modelo de apontamento (aceitar 40-50% para PMs/PDs)
-- ⚠️ Consolidação por Squad/Produto
-- ⚠️ Análise temporal longa (trimestral/semestral)
-- ⚠️ Categorização Discovery vs Delivery
+- ⚠️ **Constância no Apontamento:** A média brutal de 3.38 dias vazios por colaborador (sobretudo PMs e QAs) distorce o planejamento.
+- ⚠️ **Foco na Causa-raiz de Q/A:** Fatias com mais de 20% focadas apenas em Qualidade merecem investigação nas próximas semanas.
+- ⚠️ Necessidade crítica de consolidação das faturas/horas em nível de "Squad / Produto" e expansão do período para uma visão trimestral.
